@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/wayne/Code/flask_pojects/FaultLine/app/mod_users'
+let g:netrw_dirhist_2='/home/wayne/Code/rails_projects/sample_app/app/views/layouts'
+let g:netrw_dirhist_3='/home/wayne/Code/rails_projects/sample_app/app/views/shared'
+let g:netrw_dirhist_4='/home/wayne/Code/flask_pojects/BasicBlog/tests'
+let g:netrw_dirhist_5='/home/wayne/Code/SCGuild/Week3/tests'
