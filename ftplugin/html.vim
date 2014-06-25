@@ -7,4 +7,4 @@ set autoindent
 set smarttab
 set number
 
-let g:airline_theme='light'
+let g:airline_theme='badwolf'

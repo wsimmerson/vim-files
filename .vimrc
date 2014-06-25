@@ -10,10 +10,16 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'edkolev/promptline.vim'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'bling/vim-bufferline'
 
-filetype plugin on
 syntax on
 colorscheme elflord
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smarttab
 set wildmenu
 set laststatus=2
 set t_Co=256
@@ -28,3 +34,4 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline_theme='badwolf'
 let g:Powerline_symbols = "fancy"
+let g:bufferline_echo = 1
