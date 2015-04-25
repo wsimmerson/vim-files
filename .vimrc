@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 
 Plugin 'gmarik/vundle'
@@ -11,6 +11,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'edkolev/promptline.vim'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'bling/vim-bufferline'
+
+call vundle#end()
 
 syntax on
 colorscheme elflord
